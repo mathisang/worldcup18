@@ -1,0 +1,79 @@
+main .matchs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 .5rem;
+}
+
+main .matchs h3, main .matchs h4 {
+    color: #fafafa;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    margin: 0 0;
+    font-weight: normal;
+}
+
+main .matchs h3 {
+    background: rgba(15, 69, 130, 1);
+    height: 3rem;
+    font-family: "Dusha", sans-serif;
+    font-size: 1.4rem;
+}
+
+main .matchs h4 {
+    background: rgba(15, 69, 130, 0.9);
+    height: 2.5rem;
+    font-size: .85rem;
+}
+
+main .matchs p {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    font-size: .85rem;
+    margin: 0 0;
+    width: 20%;
+}
+
+main .matchs section {
+    width: 100%;
+}
+
+main .matchs div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+main .maxwidth {
+    margin: 0 auto;
+}
+
+main .maxwidth:last-child {
+    margin: 3rem auto;
+}
+
+.list {
+    display: flex;
+    margin: 0 auto 2rem;
+    justify-content: center;
+}
+
+.list a {
+    margin: 0 1rem;
+    color: #fafafa;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+.bluebutton {
+    background: #0f4582;
+    padding: 1rem;
+    transition: all .5s;
+}
+
+.bluebutton:hover {
+    transform: scale(1.1);
+}

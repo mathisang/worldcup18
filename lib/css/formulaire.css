@@ -1,0 +1,41 @@
+form p {
+    font-family: "Dusha", sans-serif;
+    font-size: 1.1rem;
+}
+
+input {
+    margin: 0 auto;
+    padding: .5rem;
+    height: 1.5rem;
+    width: 15rem;
+    border: 1px solid #cecece;
+}
+
+input:focus {
+    border: 1px solid #0f4582;
+}
+
+input.submit {
+    margin-top: 1rem;
+    width: 16rem;
+    height: 3rem;
+    border: none;
+    background: #0f4582;
+    text-transform: uppercase;
+    color: #fafafa;
+    font-family: "Montserrat", sans-serif;
+    transition: all .5s;
+}
+
+input.submit:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#select {
+    margin: 0 auto;
+    padding: .5rem;
+    height: 2.5rem;
+    width: 16rem;
+    border: 1px solid #cecece;
+}

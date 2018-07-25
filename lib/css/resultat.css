@@ -1,0 +1,33 @@
+main .classement section {
+    flex: 1;
+    margin: 0 .5rem;
+}
+
+main .classement section h4 {
+    background: #0f4582;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fafafa;
+    font-family: "Dusha", sans-serif;
+    font-weight: normal;
+    margin-bottom: 0;
+    padding-left: 1rem;
+}
+
+main .classement section div {
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+main .classement section div p {
+    margin: 0 1rem;
+}
+
+main .classement section div:nth-child(odd) {
+    background: rgba(15, 69, 130, 0.08);
+}

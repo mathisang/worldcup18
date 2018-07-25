@@ -1,0 +1,23 @@
+.groups {
+    margin: 0 auto;
+    height: 2.5rem;
+    width: 15rem;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #0f4582;
+    transition: all .3s;
+}
+
+.groups:hover {
+    background: #0f4582;
+    border: 1px solid #0f4582;
+    color: #fafafa;
+}
+
+.listgroup a {
+    text-decoration: none;
+}
